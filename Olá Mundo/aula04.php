@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá Mundo</title>
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <title>PHP Test</title>
 </head>
 <body>
-    <h1>Testando PHP</h1>
+    <div>
     <?php
-    echo "Olá, <br/> Mundo!";
-    ?> 
+        $idade = 40;
+        $nome = "Gustavo";
+        echo " $nome tem $idade anos!";
+    ?>
+    </div>
 </body>
 </html>

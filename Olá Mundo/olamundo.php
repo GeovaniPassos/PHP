@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olá Mundo</title>
+    <style>
+        
+    </style>
 </head>
 <body>
     <h1>Testando PHP</h1>
     <?php
-    echo "olá Mundo";
+    echo "Olá, <br/> Mundo!";
     ?>
 </body>
 </html>

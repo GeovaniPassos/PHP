@@ -9,12 +9,16 @@ body {
     div{
         background-color: rgb(236, 236, 236);
         width: 75vw;
-        height: 250px;
+        height: 60vh;
         color: rgb(34, 34, 34);
-        padding: 15px;
+        padding: 18px;
         position: absolute;
         top: 33vh;
         left: 10vw;
-        font-size: 2vw;
+        font-size: 3vh;
         font-weight: normal;
+        text-align: center;
+
     }
+
+   

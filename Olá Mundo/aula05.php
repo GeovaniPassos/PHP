@@ -8,9 +8,11 @@
     <title>Somador</title>
 </head>
 <body>
-    <h1>Olá mundo</h1>
-    <?php
-
-    ?>
+    <div>
+        
+            <h1>Olá mundo</h1>
+            <?php
+            ?>
+    </div>
 </body>
 </html>

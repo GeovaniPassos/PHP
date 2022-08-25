@@ -10,10 +10,11 @@
 <body>
     <div>
     <?php
-        $atual = $_GET["aa"];
-        echo "O ano atual é $atual, e o ano anterior é ".--$atual;
-        echo "." // Aqui está um comentário
-
+        $a = 3;
+        $b = &$a;
+        $b += 5;
+        echo "A variável A vale $a";
+        echo "<br>A variável B vale $b";
     ?>
     </div>
 </body>

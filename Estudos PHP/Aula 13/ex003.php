@@ -11,7 +11,7 @@
     <div>
         <form action="ex003-primo.php" method="get">
             <label for="valor">Numeror: </label>
-            <input type="number" name="valor" max="99" min="1">
+            <input type="number" name="valor" min="1">
             <input type="submit" value="Resultado">
         </form>
     </div>

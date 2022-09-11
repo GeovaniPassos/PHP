@@ -12,15 +12,24 @@
         <?php 
             $n = $_GET["valor"]>0?$_GET["valor"]:0;   
             echo "Análisando o número $n <br>";
-
-            $v = $n;
-            
-            for(; $v >= 1; $v--){
-                if($v % $n == 0) {
-                    echo $v;
-                }
-                  
+            echo "Valores múltiplos: ";
+            $totmult = 0;
+            for ($c = 1; $c <= $n; $c++){
+                $mult = $n/$c;
+                if ($n%$c == 0){
+                    $mult = $c;
+                    echo "$mult ";
+                    $totmult++;
+                }    
             }
+            echo "<br>Total de Multiplos: $totmult";
+            echo "<br>Resultado: ";
+            if ($totmult > 2){
+                echo "O número $n =<strong> NÃO É PRIMO!</strong>";
+            } else {
+                echo "O número $n =<strong> É PRIMO!</strong>";
+            }
+            
                 
             
                 

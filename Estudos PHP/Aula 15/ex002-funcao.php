@@ -10,21 +10,12 @@
 <body>
     <div>
         <?php
-            function soma() {
-                $p = func_get_args();
-                $tot = func_num_args();
-                $s = 0;
-                for($i=0; $i<$tot; $i++){
-                    $s += $p[$i];
-                }
-                return $s;
-            }
+            include "funcoes2.php";
+            echo "<h1>Testando novas funções</h1>";
+            ola();
 
-            $r = soma(3,7,55,7,8);
-            echo "A soma dos valores é $r";
-
- 
+            mostrarValor(99);
         ?>
     </div>
 </body>
-</html> 
+</html>
